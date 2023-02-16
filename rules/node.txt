@@ -4,3 +4,8 @@ proxies:
     type: http
     server: 10.244.1.254
     port: 31289
+    username: admin
+    password: 1g2y3S
+# tls: true # https
+# skip-cert-verify: true
+# sni: custom.com
