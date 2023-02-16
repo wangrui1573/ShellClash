@@ -3,4 +3,4 @@ proxies:
   - name: "ict"
     type: http
     server: 10.244.1.254
-    port: 31288
+    port: 31289
