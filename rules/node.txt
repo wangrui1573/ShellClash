@@ -3,6 +3,12 @@ proxies:
   - name: "ict"
     type: http
     server: 10.244.1.254
+    port: 31288
+    username: admin
+    password: 1g2y3S
+  - name: "ictvn"
+    type: http
+    server: 10.244.1.254
     port: 31289
     username: admin
     password: 1g2y3S
