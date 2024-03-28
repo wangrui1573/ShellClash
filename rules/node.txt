@@ -1,17 +1,70 @@
 proxies:
-  # http
-  - name: "ict"
-    type: http
+  - name: bwg
+    server: wkr.real7.cn
+    port: 443
+    type: vmess
+    uuid: 7d1496e9-74b0-446a-aa9f-5da15ac04678
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /8359
+      headers:
+        Host: a.real7.ml
+    udp: true
+
+  - name: bwgd
+    server: a.real7.cn
+    port: 4443
+    type: vmess
+    uuid: 7d1496e9-74b0-446a-aa9f-5da15ac04678
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /8359
+      headers:
+        Host: d.real7.ml
+    udp: true
+
+  - name: ict
     server: 10.244.1.254
     port: 31288
+    type: http
     username: admin
     password: 1g2y3S
-  - name: "ictvn"
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ict2
+    server: 10.244.1.254
+    port: 1081
     type: http
+    username: admin
+    password: 1g2y3S
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ictvn
     server: 10.244.1.254
     port: 31289
+    type: http
     username: admin
     password: 1g2y3S
-# tls: true # https
-# skip-cert-verify: true
-# sni: custom.com
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ictjs
+    server: 10.244.1.254
+    port: 20170
+    type: http
+    tls: false
+    skip-cert-verify: true
+    udp: true
