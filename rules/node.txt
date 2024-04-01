@@ -63,7 +63,7 @@ proxies:
 
   - name: ictjs
     server: 10.244.1.254
-    port: 20170
+    port: 31287
     type: http
     tls: false
     skip-cert-verify: true
