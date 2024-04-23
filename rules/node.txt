@@ -15,6 +15,16 @@ proxies:
         Host: wkr.real7.cn
     udp: true
 
+  - name: server00
+    server: wangrui1573.serv00.net
+    port: 9009
+    type: vless
+    uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    udp: true
+
   - name: bwgd
     server: a.real7.cn
     port: 4443
