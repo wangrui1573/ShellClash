@@ -1,7 +1,7 @@
 proxies:
 
   - name: bwgd
-    server: a.real7.cn
+    server: 93.179.97.186
     port: 4443
     type: vmess
     uuid: 7d1496e9-74b0-446a-aa9f-5da15ac04678
