@@ -1,0 +1,67 @@
+proxies:
+
+  - name: server00
+    server: 128.204.223.71
+    port: 9009
+    type: vless
+    uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    udp: true
+    
+  - name: bwgd
+    server: 93.179.97.186
+    port: 4443
+    type: vmess
+    uuid: 7d1496e9-74b0-446a-aa9f-5da15ac04678
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /8359
+      headers:
+        Host: a.real7.cn
+    udp: true
+
+  - name: ict
+    server: 10.244.1.254
+    port: 31288
+    type: http
+    username: admin
+    password: 1g2y3S
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ict2
+    server: 10.244.1.254
+    port: 1081
+    type: http
+    username: admin
+    password: 1g2y3S
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ictvn
+    server: 10.244.1.254
+    port: 31289
+    type: http
+    username: admin
+    password: 1g2y3S
+    tls: false
+    skip-cert-verify: true
+    udp: true
+
+  - name: ictjs
+    server: 10.244.1.254
+    port: 31287
+    type: http
+    username: admin
+    password: 1g2y3S
+    tls: false
+    skip-cert-verify: true
+    udp: true
