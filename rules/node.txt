@@ -49,6 +49,8 @@ proxies:
   - name: ictjs
     server: 10.244.1.254
     port: 31287
+    username: ictjs
+    password: 1q2w3E
     type: http
     tls: false
     skip-cert-verify: true
