@@ -27,7 +27,7 @@ proxies:
     udp: true
 
   - name: ict
-    server: 10.244.1.254
+    server: 192.168.188.4
     port: 31288
     type: http
     username: admin
@@ -37,7 +37,7 @@ proxies:
     udp: true
 
   - name: ict2
-    server: 10.244.1.254
+    server: 192.168.188.4
     port: 1081
     type: http
     username: admin
@@ -47,7 +47,7 @@ proxies:
     udp: true
 
   - name: ictvn
-    server: 10.244.1.254
+    server: 192.168.188.4
     port: 31289
     type: http
     username: admin
@@ -57,7 +57,7 @@ proxies:
     udp: true
 
   - name: ictjs
-    server: 10.244.1.254
+    server: 192.168.188.4
     port: 31287
     type: http
     username: admin
