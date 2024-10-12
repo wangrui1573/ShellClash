@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_keyword": [
+        "themoviedb",
+        "javbus",
+        "mikanani"
+      ]
+    }
+  ]
+}
