@@ -1,13 +1,6 @@
 {
-  "version": 1,
-  "rules": [
-    {
-      "domain_keyword": [
-        "themoviedb",
-        "javbus",
-        "mikanani",
-        "realwang666"
-      ]
-    }
-  ]
+	"version": 1,
+	"rules": [{
+		"domain_suffix": ["themoviedb.org", "javbus.com", "mikanani.me", "real9.cn"]
+	}]
 }
