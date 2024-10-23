@@ -1,6 +1,6 @@
 {
 	"version": 1,
 	"rules": [{
-		"domain_suffix": ["themoviedb.org", "javbus.com", "mikanani.me", "real9.cn"]
+		"domain_suffix": ["themoviedb.org", "javbus.com", "mikanani.me"]
 	}]
 }
