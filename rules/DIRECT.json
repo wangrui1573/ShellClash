@@ -1,0 +1,6 @@
+{
+	"version": 1,
+	"rules": [{
+		"domain_suffix": ["mijia.tech","real9.cn"]
+	}]
+}
