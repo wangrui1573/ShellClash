@@ -1,6 +1,6 @@
 {
 	"version": 1,
 	"rules": [{
-		"domain_suffix": ["themoviedb.org", "javbus.com", "mikanani.me", "tmdb.org", "opensubtitles.com"]
+		"domain_suffix": ["themoviedb.org", "javbus.com", "mikanani.me", "tmdb.org", "opensubtitles.com", "addic7ed.com"]
 	}]
 }
