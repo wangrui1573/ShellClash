@@ -11,20 +11,16 @@ proxies:
     udp: true
 
   - name: bwg6
-    server: 2607:8700:5500:f318::2
-    port: 4443
+    server: aaaa.real7.cn
+    port: 4433
     type: vmess
-    uuid: 7d1496e9-74b0-446a-aa9f-5da15ac04678
+    uuid: b1e2c793-dab6-4dc6-9d75-133fe9f79c07
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /8359
-      headers:
-        Host: a.real7.cn
-    udp: true
+    network: tcp
+    udp: flase
 
   - name: bwgd
     server: a.real7.cn
