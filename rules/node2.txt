@@ -10,7 +10,7 @@ proxies:
     network: ws
     udp: true
 
-  - name: bwgd6
+  - name: bwg6
     server: aaaa.real7.cn
     port: 4443
     type: vmess
