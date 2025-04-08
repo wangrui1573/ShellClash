@@ -1,4 +1,7 @@
 # 强制代理
-DOMAIN-KEYWORD,themoviedb,bwg
-DOMAIN-KEYWORD,javbus,bwg
-DOMAIN-KEYWORD,mikanani,bwg
+DOMAIN-KEYWORD,themoviedb
+DOMAIN-KEYWORD,javbus
+DOMAIN-KEYWORD,mikanani
+DOMAIN-SUFFIX,fuliba2023.net
+DOMAIN-SUFFIX,fuliba2025.net
+
