@@ -1,11 +1,12 @@
 # 强制代理搬瓦工自定义
 
-DOMAIN-KEYWORD,javbus
-DOMAIN-KEYWORD,mikanani
-DOMAIN-SUFFIX,fuliba2023.net
-DOMAIN-SUFFIX,fuliba2025.net
-DOMAIN-SUFFIX,image.tmdb.org
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,addic7ed.com 
 DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,fuliba2023.net
+DOMAIN-SUFFIX,fuliba2025.net
+DOMAIN-KEYWORD,javbus
+DOMAIN-KEYWORD,mikanani
+
+
 
