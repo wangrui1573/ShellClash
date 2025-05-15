@@ -1,5 +1,6 @@
 # 强制代理搬瓦工
 
+DOMAIN-SUFFIX,opensubtitles.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,addic7ed.com 
 DOMAIN-SUFFIX,themoviedb.org
